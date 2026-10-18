@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+data_cache/
+outputs/models/
+*.pkl
+
+# Datasets, submissions and any other tabular data
+*.csv
+
+# Notebooks are code, keep them. Large binaries excluded by size when added.
+*.pdf

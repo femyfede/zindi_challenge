@@ -1,0 +1,11 @@
+=== HONESTLY nested per-band isotonic calibration ===
+  global    : f1=0.8137 auc=0.8235 comb=0.8176 sm=0.8167 pos=0.692
+  age3      : f1=0.8093 auc=0.8226 comb=0.8147 sm=0.8143 pos=0.683
+  age5      : f1=0.8067 auc=0.8228 comb=0.8131 sm=0.8139 pos=0.683
+  age8      : f1=0.8106 auc=0.8224 comb=0.8153 sm=0.8149 pos=0.683
+  ageXperiod: f1=0.8099 auc=0.8226 comb=0.8150 sm=0.8140 pos=0.687
+  raw       : f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737 (baseline, no calibration)
+
+For reference, the LEAKY version (fit+score on same rows) reported:
+  age5      : f1=0.8232 auc=0.8379 comb=0.8291 sm=0.8269   <-- inflated
+  age3      : f1=0.8202 auc=0.8355 comb=0.8263 sm=0.8252   <-- inflated

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\FEDE\OneDrive\Desktop\ZINDI\final_ensemble.py", line 187, in <module>
+    json.dump({k: v for k, v in top}, open("experiments/ens_top.json", "w"), indent=1, default=str)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 181, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 444, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python314\Lib\json\encoder.py", line 381, in _iterencode_dict
+    raise TypeError(f'keys must be str, int, float, bool or None, '
+                    f'not {key.__class__.__name__}')
+TypeError: keys must be str, int, float, bool or None, not tuple

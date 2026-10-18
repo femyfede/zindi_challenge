@@ -1,0 +1,11 @@
+{
+    "ensemble_members": [
+        "rf_s42",
+        "xgb_s42",
+        "cat_s42"
+    ],
+    "combined_score": 0.45806691759722623,
+    "f1_score": 0.40922401171303074,
+    "roc_auc_score": 0.5313312764235195,
+    "test_pos_rate": 0.6553398058252428
+}

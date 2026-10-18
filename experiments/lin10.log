@@ -1,0 +1,27 @@
+=== reference (no GAM, lbfgs C=0.02) ===
+  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215  <-- reference
+
+=== 1) GAM with band-specific year splines ===
+  GAM C=0.005 : f1=0.8096 auc=0.8197 comb=0.8136 sm=0.8131 pos=0.866
+  GAM C=0.01  : f1=0.8179 auc=0.8222 comb=0.8196 sm=0.8193 pos=0.762
+  GAM C=0.02  : f1=0.8184 auc=0.8237 comb=0.8205 sm=0.8202 pos=0.725
+  GAM C=0.05  : f1=0.8147 auc=0.8256 comb=0.8191 sm=0.8188 pos=0.703
+
+=== 2) F1-focused boundary sample weighting (on reference model) ===
+  weight +0.5 : f1=0.8186 auc=0.8259 comb=0.8215 sm=0.8213 pos=0.718
+  weight +1.0 : f1=0.8175 auc=0.8265 comb=0.8211 sm=0.8209 pos=0.711
+  weight +2.0 : f1=0.8147 auc=0.8270 comb=0.8196 sm=0.8197 pos=0.702
+
+=== 3) elastic-net sweep (saga) ===
+  l1=0.0  C=0.02 : f1=0.8192 auc=0.8253 comb=0.8216 sm=0.8214
+  l1=0.0  C=0.05 : f1=0.8163 auc=0.8267 comb=0.8205 sm=0.8206
+  l1=0.3  C=0.02 : f1=0.8176 auc=0.8194 comb=0.8183 sm=0.8179
+  l1=0.3  C=0.05 : f1=0.8147 auc=0.8221 comb=0.8176 sm=0.8176
+  l1=0.6  C=0.02 : f1=0.8055 auc=0.8117 comb=0.8080 sm=0.8079
+  l1=0.6  C=0.05 : f1=0.8101 auc=0.8198 comb=0.8140 sm=0.8136
+  l1=0.9  C=0.02 : f1=0.7844 auc=0.7849 comb=0.7846 sm=0.7861
+  l1=0.9  C=0.05 : f1=0.7934 auc=0.8147 comb=0.8019 sm=0.8032
+
+=== 4) per-age-band isotonic recalibration (F1 only, AUC unchanged) ===
+  bands=3: f1=0.8202 auc=0.8355 comb=0.8263 sm=0.8252 pos=0.712
+  bands=5: f1=0.8232 auc=0.8379 comb=0.8291 sm=0.8269 pos=0.714

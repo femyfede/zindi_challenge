@@ -1,0 +1,14 @@
+loaded cached POWER features (4176, 239)
+using 148/155 POWER columns
+without_POWER  rf    STRAT F1=0.7963 AUC=0.8103 c=0.8019 | ROLL F1=0.8260 AUC=0.8455 c=0.8338 (95s)
+without_POWER  xgb   STRAT F1=0.7987 AUC=0.7936 c=0.7966 | ROLL F1=0.8036 AUC=0.8346 c=0.8160 (145s)
+without_POWER  lgbm  STRAT F1=0.7872 AUC=0.7893 c=0.7880 | ROLL F1=0.8095 AUC=0.8316 c=0.8183 (115s)
+with_POWER     rf    STRAT F1=0.7951 AUC=0.7999 c=0.7970 | ROLL F1=0.8102 AUC=0.8422 c=0.8230 (130s)
+with_POWER     xgb   STRAT F1=0.7912 AUC=0.7838 c=0.7883 | ROLL F1=0.8027 AUC=0.8287 c=0.8131 (444s)
+with_POWER     lgbm  STRAT F1=0.7895 AUC=0.7838 c=0.7872 | ROLL F1=0.8072 AUC=0.8313 c=0.8169 (304s)
+
+DELTA (with_POWER - without_POWER):
+  rf    strat -0.0049   rolling -0.0108
+  xgb   strat -0.0083   rolling -0.0029
+  lgbm  strat -0.0008   rolling -0.0014
+DONE power_ablation

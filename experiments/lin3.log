@@ -1,0 +1,156 @@
+bins=13 C=0.02  base                   f1=0.8164 auc=0.8229 comb=0.8190 sm=0.8187 pos=0.749
+bins=13 C=0.03  base                   f1=0.8185 auc=0.8236 comb=0.8206 sm=0.8195 pos=0.728
+bins=13 C=0.06  base                   f1=0.8159 auc=0.8246 comb=0.8194 sm=0.8189 pos=0.710
+bins=13 C=0.02  year_post              f1=0.8146 auc=0.8224 comb=0.8177 sm=0.8181 pos=0.757
+bins=13 C=0.03  year_post              f1=0.8171 auc=0.8232 comb=0.8195 sm=0.8189 pos=0.733
+bins=13 C=0.06  year_post              f1=0.8179 auc=0.8240 comb=0.8204 sm=0.8195 pos=0.713
+bins=13 C=0.02  doy_post               f1=0.8162 auc=0.8228 comb=0.8189 sm=0.8186 pos=0.754
+bins=13 C=0.03  doy_post               f1=0.8163 auc=0.8235 comb=0.8192 sm=0.8189 pos=0.732
+bins=13 C=0.06  doy_post               f1=0.8157 auc=0.8241 comb=0.8190 sm=0.8190 pos=0.710
+bins=13 C=0.02  year_post,doy_post     f1=0.8164 auc=0.8222 comb=0.8187 sm=0.8189 pos=0.757
+bins=13 C=0.03  year_post,doy_post     f1=0.8170 auc=0.8231 comb=0.8194 sm=0.8189 pos=0.737
+bins=13 C=0.06  year_post,doy_post     f1=0.8146 auc=0.8239 comb=0.8183 sm=0.8191 pos=0.713
+bins=13 C=0.02  z                      f1=0.8164 auc=0.8229 comb=0.8190 sm=0.8187 pos=0.749
+bins=13 C=0.03  z                      f1=0.8185 auc=0.8236 comb=0.8206 sm=0.8195 pos=0.728
+bins=13 C=0.06  z                      f1=0.8159 auc=0.8246 comb=0.8194 sm=0.8189 pos=0.710
+bins=13 C=0.02  gz_full                f1=0.8164 auc=0.8229 comb=0.8190 sm=0.8187 pos=0.749
+bins=13 C=0.03  gz_full                f1=0.8185 auc=0.8236 comb=0.8206 sm=0.8195 pos=0.728
+bins=13 C=0.06  gz_full                f1=0.8159 auc=0.8246 comb=0.8194 sm=0.8189 pos=0.710
+bins=13 C=0.02  post_only              f1=0.8164 auc=0.8229 comb=0.8190 sm=0.8187 pos=0.749
+bins=13 C=0.03  post_only              f1=0.8185 auc=0.8236 comb=0.8206 sm=0.8195 pos=0.728
+bins=13 C=0.06  post_only              f1=0.8159 auc=0.8246 comb=0.8194 sm=0.8189 pos=0.710
+bins=13 C=0.02  season                 f1=0.8164 auc=0.8229 comb=0.8190 sm=0.8187 pos=0.749
+bins=13 C=0.03  season                 f1=0.8185 auc=0.8236 comb=0.8206 sm=0.8195 pos=0.728
+bins=13 C=0.06  season                 f1=0.8159 auc=0.8246 comb=0.8194 sm=0.8189 pos=0.710
+bins=13 C=0.02  cell_sea,season        f1=0.8181 auc=0.8230 comb=0.8200 sm=0.8190 pos=0.742
+bins=13 C=0.03  cell_sea,season        f1=0.8172 auc=0.8235 comb=0.8197 sm=0.8189 pos=0.723
+bins=13 C=0.06  cell_sea,season        f1=0.8134 auc=0.8238 comb=0.8175 sm=0.8175 pos=0.709
+bins=13 C=0.02  year_post,gz_full      f1=0.8146 auc=0.8224 comb=0.8177 sm=0.8181 pos=0.757
+bins=13 C=0.03  year_post,gz_full      f1=0.8171 auc=0.8232 comb=0.8195 sm=0.8189 pos=0.733
+bins=13 C=0.06  year_post,gz_full      f1=0.8179 auc=0.8240 comb=0.8204 sm=0.8195 pos=0.713
+bins=13 C=0.02  year_post,season       f1=0.8146 auc=0.8224 comb=0.8177 sm=0.8181 pos=0.757
+bins=13 C=0.03  year_post,season       f1=0.8171 auc=0.8232 comb=0.8195 sm=0.8189 pos=0.733
+bins=13 C=0.06  year_post,season       f1=0.8179 auc=0.8240 comb=0.8204 sm=0.8195 pos=0.713
+bins=20 C=0.02  base                   f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+bins=20 C=0.03  base                   f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+bins=20 C=0.06  base                   f1=0.8142 auc=0.8250 comb=0.8185 sm=0.8195 pos=0.709
+bins=20 C=0.02  year_post              f1=0.8173 auc=0.8227 comb=0.8195 sm=0.8192 pos=0.760
+bins=20 C=0.03  year_post              f1=0.8192 auc=0.8233 comb=0.8209 sm=0.8200 pos=0.737
+bins=20 C=0.06  year_post              f1=0.8156 auc=0.8243 comb=0.8191 sm=0.8195 pos=0.713
+bins=20 C=0.02  doy_post               f1=0.8169 auc=0.8230 comb=0.8193 sm=0.8202 pos=0.756
+bins=20 C=0.03  doy_post               f1=0.8191 auc=0.8236 comb=0.8209 sm=0.8201 pos=0.734
+bins=20 C=0.06  doy_post               f1=0.8148 auc=0.8244 comb=0.8187 sm=0.8183 pos=0.711
+bins=20 C=0.02  year_post,doy_post     f1=0.8166 auc=0.8223 comb=0.8189 sm=0.8192 pos=0.762
+bins=20 C=0.03  year_post,doy_post     f1=0.8199 auc=0.8230 comb=0.8212 sm=0.8200 pos=0.739
+bins=20 C=0.06  year_post,doy_post     f1=0.8156 auc=0.8242 comb=0.8190 sm=0.8181 pos=0.713
+bins=20 C=0.02  z                      f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+bins=20 C=0.03  z                      f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+bins=20 C=0.06  z                      f1=0.8142 auc=0.8250 comb=0.8185 sm=0.8195 pos=0.709
+bins=20 C=0.02  gz_full                f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+bins=20 C=0.03  gz_full                f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+bins=20 C=0.06  gz_full                f1=0.8142 auc=0.8250 comb=0.8185 sm=0.8195 pos=0.709
+bins=20 C=0.02  post_only              f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+bins=20 C=0.03  post_only              f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+bins=20 C=0.06  post_only              f1=0.8142 auc=0.8250 comb=0.8185 sm=0.8195 pos=0.709
+bins=20 C=0.02  season                 f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+bins=20 C=0.03  season                 f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+bins=20 C=0.06  season                 f1=0.8142 auc=0.8250 comb=0.8185 sm=0.8195 pos=0.709
+bins=20 C=0.02  cell_sea,season        f1=0.8192 auc=0.8236 comb=0.8209 sm=0.8205 pos=0.743
+bins=20 C=0.03  cell_sea,season        f1=0.8189 auc=0.8238 comb=0.8208 sm=0.8197 pos=0.725
+bins=20 C=0.06  cell_sea,season        f1=0.8155 auc=0.8241 comb=0.8190 sm=0.8179 pos=0.709
+bins=20 C=0.02  year_post,gz_full      f1=0.8173 auc=0.8227 comb=0.8195 sm=0.8192 pos=0.760
+bins=20 C=0.03  year_post,gz_full      f1=0.8192 auc=0.8233 comb=0.8209 sm=0.8200 pos=0.737
+bins=20 C=0.06  year_post,gz_full      f1=0.8156 auc=0.8243 comb=0.8191 sm=0.8195 pos=0.713
+bins=20 C=0.02  year_post,season       f1=0.8173 auc=0.8227 comb=0.8195 sm=0.8192 pos=0.760
+bins=20 C=0.03  year_post,season       f1=0.8192 auc=0.8233 comb=0.8209 sm=0.8200 pos=0.737
+bins=20 C=0.06  year_post,season       f1=0.8156 auc=0.8243 comb=0.8191 sm=0.8195 pos=0.713
+bins= 8 C=0.02  base                   f1=0.8180 auc=0.8232 comb=0.8200 sm=0.8197 pos=0.744
+bins= 8 C=0.03  base                   f1=0.8176 auc=0.8237 comb=0.8201 sm=0.8189 pos=0.728
+bins= 8 C=0.06  base                   f1=0.8151 auc=0.8245 comb=0.8189 sm=0.8190 pos=0.711
+bins= 8 C=0.02  year_post              f1=0.8182 auc=0.8228 comb=0.8200 sm=0.8199 pos=0.748
+bins= 8 C=0.03  year_post              f1=0.8174 auc=0.8234 comb=0.8198 sm=0.8196 pos=0.731
+bins= 8 C=0.06  year_post              f1=0.8159 auc=0.8241 comb=0.8192 sm=0.8187 pos=0.714
+bins= 8 C=0.02  doy_post               f1=0.8171 auc=0.8231 comb=0.8195 sm=0.8191 pos=0.750
+bins= 8 C=0.03  doy_post               f1=0.8164 auc=0.8237 comb=0.8193 sm=0.8193 pos=0.732
+bins= 8 C=0.06  doy_post               f1=0.8156 auc=0.8241 comb=0.8190 sm=0.8191 pos=0.713
+bins= 8 C=0.02  year_post,doy_post     f1=0.8175 auc=0.8226 comb=0.8196 sm=0.8194 pos=0.751
+bins= 8 C=0.03  year_post,doy_post     f1=0.8167 auc=0.8233 comb=0.8193 sm=0.8195 pos=0.735
+bins= 8 C=0.06  year_post,doy_post     f1=0.8160 auc=0.8240 comb=0.8192 sm=0.8188 pos=0.714
+bins= 8 C=0.02  z                      f1=0.8180 auc=0.8232 comb=0.8200 sm=0.8197 pos=0.744
+bins= 8 C=0.03  z                      f1=0.8176 auc=0.8237 comb=0.8201 sm=0.8189 pos=0.728
+bins= 8 C=0.06  z                      f1=0.8151 auc=0.8245 comb=0.8189 sm=0.8190 pos=0.711
+bins= 8 C=0.02  gz_full                f1=0.8180 auc=0.8232 comb=0.8200 sm=0.8197 pos=0.744
+bins= 8 C=0.03  gz_full                f1=0.8176 auc=0.8237 comb=0.8201 sm=0.8189 pos=0.728
+bins= 8 C=0.06  gz_full                f1=0.8151 auc=0.8245 comb=0.8189 sm=0.8190 pos=0.711
+bins= 8 C=0.02  post_only              f1=0.8180 auc=0.8232 comb=0.8200 sm=0.8197 pos=0.744
+bins= 8 C=0.03  post_only              f1=0.8176 auc=0.8237 comb=0.8201 sm=0.8189 pos=0.728
+bins= 8 C=0.06  post_only              f1=0.8151 auc=0.8245 comb=0.8189 sm=0.8190 pos=0.711
+bins= 8 C=0.02  season                 f1=0.8180 auc=0.8232 comb=0.8200 sm=0.8197 pos=0.744
+bins= 8 C=0.03  season                 f1=0.8176 auc=0.8237 comb=0.8201 sm=0.8189 pos=0.728
+bins= 8 C=0.06  season                 f1=0.8151 auc=0.8245 comb=0.8189 sm=0.8190 pos=0.711
+bins= 8 C=0.02  cell_sea,season        f1=0.8171 auc=0.8231 comb=0.8195 sm=0.8190 pos=0.740
+bins= 8 C=0.03  cell_sea,season        f1=0.8161 auc=0.8235 comb=0.8190 sm=0.8187 pos=0.725
+bins= 8 C=0.06  cell_sea,season        f1=0.8149 auc=0.8239 comb=0.8185 sm=0.8181 pos=0.706
+bins= 8 C=0.02  year_post,gz_full      f1=0.8182 auc=0.8228 comb=0.8200 sm=0.8199 pos=0.748
+bins= 8 C=0.03  year_post,gz_full      f1=0.8174 auc=0.8234 comb=0.8198 sm=0.8196 pos=0.731
+bins= 8 C=0.06  year_post,gz_full      f1=0.8159 auc=0.8241 comb=0.8192 sm=0.8187 pos=0.714
+bins= 8 C=0.02  year_post,season       f1=0.8182 auc=0.8228 comb=0.8200 sm=0.8199 pos=0.748
+bins= 8 C=0.03  year_post,season       f1=0.8174 auc=0.8234 comb=0.8198 sm=0.8196 pos=0.731
+bins= 8 C=0.06  year_post,season       f1=0.8159 auc=0.8241 comb=0.8192 sm=0.8187 pos=0.714
+bins= 6 C=0.02  base                   f1=0.8155 auc=0.8216 comb=0.8179 sm=0.8183 pos=0.729
+bins= 6 C=0.03  base                   f1=0.8165 auc=0.8222 comb=0.8188 sm=0.8187 pos=0.718
+bins= 6 C=0.06  base                   f1=0.8154 auc=0.8232 comb=0.8185 sm=0.8187 pos=0.704
+bins= 6 C=0.02  year_post              f1=0.8153 auc=0.8213 comb=0.8177 sm=0.8179 pos=0.733
+bins= 6 C=0.03  year_post              f1=0.8153 auc=0.8220 comb=0.8180 sm=0.8182 pos=0.723
+bins= 6 C=0.06  year_post              f1=0.8176 auc=0.8229 comb=0.8197 sm=0.8186 pos=0.709
+bins= 6 C=0.02  doy_post               f1=0.8155 auc=0.8218 comb=0.8181 sm=0.8181 pos=0.731
+bins= 6 C=0.03  doy_post               f1=0.8148 auc=0.8224 comb=0.8179 sm=0.8176 pos=0.723
+bins= 6 C=0.06  doy_post               f1=0.8143 auc=0.8232 comb=0.8179 sm=0.8181 pos=0.709
+bins= 6 C=0.02  year_post,doy_post     f1=0.8161 auc=0.8212 comb=0.8181 sm=0.8182 pos=0.732
+bins= 6 C=0.03  year_post,doy_post     f1=0.8166 auc=0.8221 comb=0.8188 sm=0.8176 pos=0.724
+bins= 6 C=0.06  year_post,doy_post     f1=0.8161 auc=0.8231 comb=0.8189 sm=0.8187 pos=0.712
+bins= 6 C=0.02  z                      f1=0.8155 auc=0.8216 comb=0.8179 sm=0.8183 pos=0.729
+bins= 6 C=0.03  z                      f1=0.8165 auc=0.8222 comb=0.8188 sm=0.8187 pos=0.718
+bins= 6 C=0.06  z                      f1=0.8154 auc=0.8232 comb=0.8185 sm=0.8187 pos=0.704
+bins= 6 C=0.02  gz_full                f1=0.8155 auc=0.8216 comb=0.8179 sm=0.8183 pos=0.729
+bins= 6 C=0.03  gz_full                f1=0.8165 auc=0.8222 comb=0.8188 sm=0.8187 pos=0.718
+bins= 6 C=0.06  gz_full                f1=0.8154 auc=0.8232 comb=0.8185 sm=0.8187 pos=0.704
+bins= 6 C=0.02  post_only              f1=0.8155 auc=0.8216 comb=0.8179 sm=0.8183 pos=0.729
+bins= 6 C=0.03  post_only              f1=0.8165 auc=0.8222 comb=0.8188 sm=0.8187 pos=0.718
+bins= 6 C=0.06  post_only              f1=0.8154 auc=0.8232 comb=0.8185 sm=0.8187 pos=0.704
+bins= 6 C=0.02  season                 f1=0.8155 auc=0.8216 comb=0.8179 sm=0.8183 pos=0.729
+bins= 6 C=0.03  season                 f1=0.8165 auc=0.8222 comb=0.8188 sm=0.8187 pos=0.718
+bins= 6 C=0.06  season                 f1=0.8154 auc=0.8232 comb=0.8185 sm=0.8187 pos=0.704
+bins= 6 C=0.02  cell_sea,season        f1=0.8146 auc=0.8213 comb=0.8172 sm=0.8173 pos=0.719
+bins= 6 C=0.03  cell_sea,season        f1=0.8155 auc=0.8218 comb=0.8180 sm=0.8179 pos=0.714
+bins= 6 C=0.06  cell_sea,season        f1=0.8154 auc=0.8227 comb=0.8183 sm=0.8176 pos=0.699
+bins= 6 C=0.02  year_post,gz_full      f1=0.8153 auc=0.8213 comb=0.8177 sm=0.8179 pos=0.733
+bins= 6 C=0.03  year_post,gz_full      f1=0.8153 auc=0.8220 comb=0.8180 sm=0.8182 pos=0.723
+bins= 6 C=0.06  year_post,gz_full      f1=0.8176 auc=0.8229 comb=0.8197 sm=0.8186 pos=0.709
+bins= 6 C=0.02  year_post,season       f1=0.8153 auc=0.8213 comb=0.8177 sm=0.8179 pos=0.733
+bins= 6 C=0.03  year_post,season       f1=0.8153 auc=0.8220 comb=0.8180 sm=0.8182 pos=0.723
+bins= 6 C=0.06  year_post,season       f1=0.8176 auc=0.8229 comb=0.8197 sm=0.8186 pos=0.709
+
+(781s)
+TOP 20 by seed-mean combined:
+      f1      auc     comb       sm      pos bins    C                tag  year_post  doy_post   z  gz_full  post_only  season  cell_sea
+0.819604 0.824133 0.821416 0.820647 0.730769   20 0.03            gz_full        NaN       NaN NaN      1.0        NaN     NaN       NaN
+0.819604 0.824133 0.821416 0.820647 0.730769   20 0.03                  z        NaN       NaN 1.0      NaN        NaN     NaN       NaN
+0.819604 0.824133 0.821416 0.820647 0.730769   20 0.03             season        NaN       NaN NaN      NaN        NaN     1.0       NaN
+0.819604 0.824133 0.821416 0.820647 0.730769   20 0.03               base        NaN       NaN NaN      NaN        NaN     NaN       NaN
+0.819604 0.824133 0.821416 0.820647 0.730769   20 0.03          post_only        NaN       NaN NaN      NaN        1.0     NaN       NaN
+0.819156 0.823567 0.820920 0.820469 0.743166   20 0.02    cell_sea,season        NaN       NaN NaN      NaN        NaN     1.0       1.0
+0.816908 0.822998 0.819344 0.820249 0.755563   20 0.02           doy_post        NaN       1.0 NaN      NaN        NaN     NaN       NaN
+0.818822 0.823489 0.820689 0.820136 0.747616   20 0.02             season        NaN       NaN NaN      NaN        NaN     1.0       NaN
+0.818822 0.823489 0.820689 0.820136 0.747616   20 0.02            gz_full        NaN       NaN NaN      1.0        NaN     NaN       NaN
+0.818822 0.823489 0.820689 0.820136 0.747616   20 0.02                  z        NaN       NaN 1.0      NaN        NaN     NaN       NaN
+0.818822 0.823489 0.820689 0.820136 0.747616   20 0.02          post_only        NaN       NaN NaN      NaN        1.0     NaN       NaN
+0.818822 0.823489 0.820689 0.820136 0.747616   20 0.02               base        NaN       NaN NaN      NaN        NaN     NaN       NaN
+0.819100 0.823640 0.820916 0.820124 0.733948   20 0.03           doy_post        NaN       1.0 NaN      NaN        NaN     NaN       NaN
+0.819950 0.823047 0.821189 0.820036 0.738716   20 0.03 year_post,doy_post        1.0       1.0 NaN      NaN        NaN     NaN       NaN
+0.819244 0.823310 0.820870 0.819984 0.736809   20 0.03   year_post,season        1.0       NaN NaN      NaN        NaN     1.0       NaN
+0.819244 0.823310 0.820870 0.819984 0.736809   20 0.03          year_post        1.0       NaN NaN      NaN        NaN     NaN       NaN
+0.819244 0.823310 0.820870 0.819984 0.736809   20 0.03  year_post,gz_full        1.0       NaN NaN      1.0        NaN     NaN       NaN
+0.818182 0.822823 0.820038 0.819876 0.747934    8 0.02  year_post,gz_full        1.0       NaN NaN      1.0        NaN     NaN       NaN
+0.818182 0.822823 0.820038 0.819876 0.747934    8 0.02   year_post,season        1.0       NaN NaN      NaN        NaN     1.0       NaN
+0.818182 0.822823 0.820038 0.819876 0.747934    8 0.02          year_post        1.0       NaN NaN      NaN        NaN     NaN       NaN

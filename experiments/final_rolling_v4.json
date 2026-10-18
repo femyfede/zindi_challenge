@@ -1,0 +1,8 @@
+{
+  "members": [
+    "rf"
+  ],
+  "rolling_combined": 0.8335,
+  "rolling_f1": 0.826,
+  "rolling_auc": 0.8447
+}

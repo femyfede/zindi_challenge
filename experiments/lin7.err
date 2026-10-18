@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\FEDE\OneDrive\Desktop\ZINDI\run_lin7.py", line 136, in <module>
+    o = (1 - w) * BEST_BAG + w * to
+        ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ValueError: operands could not be broadcast together with shapes (5,3146) (3,3146) 

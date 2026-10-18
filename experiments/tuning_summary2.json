@@ -1,0 +1,30 @@
+{
+ "catboost": {
+  "combined": 0.7883,
+  "F1": 0.7828,
+  "AUC": 0.7966,
+  "params": {
+   "iterations": 1100,
+   "depth": 6,
+   "learning_rate": 0.04684389801018712,
+   "l2_leaf_reg": 4.99906000660448,
+   "auto_class_weights": "Balanced",
+   "random_seed": 42,
+   "verbose": false,
+   "allow_writing_files": false
+  }
+ },
+ "histgb": {
+  "combined": 0.7874,
+  "F1": 0.7785,
+  "AUC": 0.8007,
+  "params": {
+   "max_iter": 250,
+   "learning_rate": 0.06217277169384949,
+   "max_leaf_nodes": 16,
+   "l2_regularization": 3.7952475919853477,
+   "class_weight": "balanced",
+   "random_state": 42
+  }
+ }
+}

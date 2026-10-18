@@ -1,0 +1,65 @@
+=== bagged-bins linear ===
+  BAG12: f1=0.8197 auc=0.8262 comb=0.8223 sm=0.8216
+  B20  : f1=0.8195 auc=0.8253 comb=0.8218
+
+=== trees ===
+  lgbm  f1=0.7977 auc=0.8098 comb=0.8025
+  hgb   f1=0.8032 auc=0.8112 comb=0.8064
+  xgb   f1=0.7990 auc=0.8125 comb=0.8044
+  cat   f1=0.8009 auc=0.8110 comb=0.8049
+  et    f1=0.7662 auc=0.8112 comb=0.7842
+  rf    f1=0.7821 auc=0.8121 comb=0.7941
+
+=== blend weight sweep (linear bag + tree) ===
+  LIN + 0.10*lgbm : f1=0.8162 auc=0.8261 comb=0.8201 sm=0.8203 pos=0.719  <--
+  LIN + 0.15*lgbm : f1=0.8172 auc=0.8259 comb=0.8207 sm=0.8203 pos=0.718
+  LIN + 0.20*lgbm : f1=0.8180 auc=0.8254 comb=0.8209 sm=0.8200 pos=0.720
+  LIN + 0.25*lgbm : f1=0.8172 auc=0.8248 comb=0.8202 sm=0.8193 pos=0.719
+  LIN + 0.30*lgbm : f1=0.8163 auc=0.8241 comb=0.8194 sm=0.8177 pos=0.715
+  LIN + 0.40*lgbm : f1=0.8141 auc=0.8223 comb=0.8174 sm=0.8155 pos=0.707
+  LIN + 0.10*hgb  : f1=0.8181 auc=0.8260 comb=0.8212 sm=0.8203 pos=0.721
+  LIN + 0.15*hgb  : f1=0.8173 auc=0.8256 comb=0.8206 sm=0.8196 pos=0.718
+  LIN + 0.20*hgb  : f1=0.8173 auc=0.8252 comb=0.8204 sm=0.8196 pos=0.720
+  LIN + 0.25*hgb  : f1=0.8160 auc=0.8247 comb=0.8195 sm=0.8191 pos=0.721
+  LIN + 0.30*hgb  : f1=0.8173 auc=0.8240 comb=0.8200 sm=0.8180 pos=0.720
+  LIN + 0.40*hgb  : f1=0.8147 auc=0.8225 comb=0.8178 sm=0.8161 pos=0.715
+  LIN + 0.10*xgb  : f1=0.8178 auc=0.8260 comb=0.8211 sm=0.8203 pos=0.719
+  LIN + 0.15*xgb  : f1=0.8169 auc=0.8258 comb=0.8205 sm=0.8203 pos=0.719
+  LIN + 0.20*xgb  : f1=0.8188 auc=0.8255 comb=0.8215 sm=0.8204 pos=0.720  <--
+  LIN + 0.25*xgb  : f1=0.8181 auc=0.8250 comb=0.8209 sm=0.8195 pos=0.716
+  LIN + 0.30*xgb  : f1=0.8176 auc=0.8245 comb=0.8203 sm=0.8189 pos=0.717
+  LIN + 0.40*xgb  : f1=0.8154 auc=0.8231 comb=0.8185 sm=0.8162 pos=0.708
+  LIN + 0.10*cat  : f1=0.8171 auc=0.8260 comb=0.8207 sm=0.8205 pos=0.723  <--
+  LIN + 0.15*cat  : f1=0.8174 auc=0.8258 comb=0.8208 sm=0.8204 pos=0.721
+  LIN + 0.20*cat  : f1=0.8171 auc=0.8253 comb=0.8204 sm=0.8194 pos=0.721
+  LIN + 0.25*cat  : f1=0.8173 auc=0.8247 comb=0.8203 sm=0.8192 pos=0.722
+  LIN + 0.30*cat  : f1=0.8163 auc=0.8240 comb=0.8194 sm=0.8187 pos=0.720
+  LIN + 0.40*cat  : f1=0.8149 auc=0.8224 comb=0.8179 sm=0.8164 pos=0.713
+  LIN + 0.10*et   : f1=0.8165 auc=0.8261 comb=0.8203 sm=0.8199 pos=0.709
+  LIN + 0.15*et   : f1=0.8152 auc=0.8258 comb=0.8194 sm=0.8186 pos=0.698
+  LIN + 0.20*et   : f1=0.8136 auc=0.8253 comb=0.8183 sm=0.8175 pos=0.689
+  LIN + 0.25*et   : f1=0.8125 auc=0.8249 comb=0.8175 sm=0.8154 pos=0.680
+  LIN + 0.30*et   : f1=0.8061 auc=0.8243 comb=0.8134 sm=0.8122 pos=0.664
+  LIN + 0.40*et   : f1=0.7980 auc=0.8230 comb=0.8080 sm=0.8066 pos=0.621
+  LIN + 0.10*rf   : f1=0.8171 auc=0.8260 comb=0.8207 sm=0.8202 pos=0.712
+  LIN + 0.15*rf   : f1=0.8178 auc=0.8258 comb=0.8210 sm=0.8197 pos=0.705
+  LIN + 0.20*rf   : f1=0.8155 auc=0.8255 comb=0.8195 sm=0.8184 pos=0.698
+  LIN + 0.25*rf   : f1=0.8153 auc=0.8250 comb=0.8192 sm=0.8159 pos=0.694
+  LIN + 0.30*rf   : f1=0.8091 auc=0.8244 comb=0.8152 sm=0.8137 pos=0.687
+  LIN + 0.40*rf   : f1=0.8026 auc=0.8229 comb=0.8107 sm=0.8088 pos=0.655
+  best single-tree blend: cat w=0.1 sm=0.8205
+
+=== multi-tree equal-weight blend added to LIN ===
+  LIN + 0.15*avg(lgbm+hgb): f1=0.8175 auc=0.8258 comb=0.8208 sm=0.8201 pos=0.719
+  LIN + 0.25*avg(lgbm+hgb): f1=0.8174 auc=0.8248 comb=0.8204 sm=0.8193 pos=0.720
+  LIN + 0.35*avg(lgbm+hgb): f1=0.8153 auc=0.8235 comb=0.8186 sm=0.8167 pos=0.714
+  LIN + 0.15*avg(lgbm+hgb+xgb): f1=0.8171 auc=0.8258 comb=0.8206 sm=0.8202 pos=0.719
+  LIN + 0.25*avg(lgbm+hgb+xgb): f1=0.8193 auc=0.8249 comb=0.8216 sm=0.8197 pos=0.720
+  LIN + 0.35*avg(lgbm+hgb+xgb): f1=0.8164 auc=0.8237 comb=0.8193 sm=0.8170 pos=0.714
+  LIN + 0.15*avg(lgbm+hgb+xgb+cat): f1=0.8168 auc=0.8258 comb=0.8204 sm=0.8204 pos=0.720
+  LIN + 0.25*avg(lgbm+hgb+xgb+cat): f1=0.8190 auc=0.8250 comb=0.8214 sm=0.8196 pos=0.721
+  LIN + 0.35*avg(lgbm+hgb+xgb+cat): f1=0.8149 auc=0.8238 comb=0.8184 sm=0.8180 pos=0.716
+
+=== scipy-optimised weights (lin + 6 trees) on combined score ===
+  weights: LIN=0.552, lgbm=0.001, hgb=0.228, xgb=0.175, cat=0.001, et=0.044, rf=0.000
+  optimised (in-sample on OOF, so optimistic): f1=0.8158 auc=0.8224 comb=0.8184

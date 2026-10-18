@@ -1,0 +1,14 @@
+=== A) ensemble over randomised age-bin definitions ===
+  pool[0] (B20, reference) f1=0.8187 auc=0.8250 comb=0.8212
+   built pool[0]
+   built pool[4]
+   built pool[8]
+  BAG first  3 binnings: f1=0.8191 auc=0.8252 comb=0.8216 sm=0.8209 pos=0.725
+  BAG first  5 binnings: f1=0.8187 auc=0.8253 comb=0.8213 sm=0.8208 pos=0.725
+  BAG first  8 binnings: f1=0.8188 auc=0.8257 comb=0.8215 sm=0.8210 pos=0.724
+  BAG first 12 binnings: f1=0.8194 auc=0.8256 comb=0.8219 sm=0.8211 pos=0.726
+
+=== B) tree-blend weight sweep on top of the bagged linear score ===
+  lgbm alone: f1=0.7977 auc=0.8098 comb=0.8025
+  hgb alone: f1=0.8032 auc=0.8112 comb=0.8064
+  xgb alone: f1=0.7990 auc=0.8125 comb=0.8044

@@ -1,0 +1,19 @@
+reference (B20, C=0.02): f1=0.8187 auc=0.8250 comb=0.8212 sm=0.8214
+
+=== 1) registration-artifact features (day-of-week, day-of-month, ISO week) ===
+  +dow/+day/+week: f1=0.8197 auc=0.8243 comb=0.8216 sm=0.8204
+
+=== 2) self-training on the test features (transductive) ===
+  teacher test posrate=0.7417 meanP=0.6561
+  conf>0.9 w=0.3 n_pl= 668: f1=0.8207 auc=0.8254 comb=0.8225 sm=0.8219
+  conf>0.9 w=1.0 n_pl= 668: f1=0.8211 auc=0.8251 comb=0.8227 sm=0.8224
+  conf>0.95 w=0.3 n_pl= 898: f1=0.8211 auc=0.8257 comb=0.8229 sm=0.8224
+  conf>0.95 w=1.0 n_pl= 898: f1=0.8188 auc=0.8250 comb=0.8213 sm=0.8213
+  conf>0.98 w=0.3 n_pl= 975: f1=0.8212 auc=0.8255 comb=0.8229 sm=0.8225
+  conf>0.98 w=1.0 n_pl= 975: f1=0.8199 auc=0.8247 comb=0.8218 sm=0.8216
+
+=== 3) target-mean shift check: does test look like train? ===
+  train mean p=0.6508 | test mean p=0.6561
+  train posrate=0.7346 | test posrate=0.7417
+  test years 2007-2022, pre-break 786 / post 244
+  test infant(age<=1) share=0.4311 vs train 0.4428

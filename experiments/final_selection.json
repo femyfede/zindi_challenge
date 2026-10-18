@@ -1,0 +1,26 @@
+{
+ "singleA": {
+  "cv_seedmean_comb": 0.8214439626409433,
+  "cv_seedmin_comb": 0.8208168873156123
+ },
+ "singleB": {
+  "cv_seedmean_comb": 0.8201572560976427,
+  "cv_seedmin_comb": 0.8175618705020415
+ },
+ "singleC": {
+  "cv_seedmean_comb": 0.8195003622609089,
+  "cv_seedmin_comb": 0.817717343625531
+ },
+ "AB": {
+  "cv_seedmean_comb": 0.8209340927580945,
+  "cv_seedmin_comb": 0.8185229043558901
+ },
+ "ABC": {
+  "cv_seedmean_comb": 0.8209504497670709,
+  "cv_seedmin_comb": 0.8189234820699737
+ },
+ "ABCD": {
+  "cv_seedmean_comb": 0.8203309646303308,
+  "cv_seedmin_comb": 0.8177721000394662
+ }
+}

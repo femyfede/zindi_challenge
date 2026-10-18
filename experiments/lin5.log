@@ -1,0 +1,37 @@
+base                     C=0.01  f1=0.8161 auc=0.8241 comb=0.8193 sm=0.8190 pos=0.806
+base                     C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+base                     C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+age8 x month             C=0.01  f1=0.8161 auc=0.8241 comb=0.8193 sm=0.8190 pos=0.806
+age8 x month             C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+age8 x month             C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+age8 x month x period    C=0.01  f1=0.8189 auc=0.8234 comb=0.8207 sm=0.8193 pos=0.799
+age8 x month x period    C=0.02  f1=0.8188 auc=0.8243 comb=0.8210 sm=0.8210 pos=0.734
+age8 x month x period    C=0.03  f1=0.8183 auc=0.8246 comb=0.8208 sm=0.8204 pos=0.721
+age x doy spline         C=0.01  f1=0.8161 auc=0.8241 comb=0.8193 sm=0.8190 pos=0.806
+age x doy spline         C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+age x doy spline         C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
++climate                 C=0.01  f1=0.8157 auc=0.8201 comb=0.8174 sm=0.8170 pos=0.812
++climate                 C=0.02  f1=0.8186 auc=0.8228 comb=0.8203 sm=0.8190 pos=0.737
++climate                 C=0.03  f1=0.8201 auc=0.8237 comb=0.8215 sm=0.8194 pos=0.721
++climate+agexclim        C=0.01  f1=0.8148 auc=0.8173 comb=0.8158 sm=0.8161 pos=0.748
++climate+agexclim        C=0.02  f1=0.8150 auc=0.8201 comb=0.8170 sm=0.8175 pos=0.731
++climate+agexclim        C=0.03  f1=0.8176 auc=0.8214 comb=0.8191 sm=0.8178 pos=0.723
+age8xmonth +climate      C=0.01  f1=0.8157 auc=0.8201 comb=0.8174 sm=0.8170 pos=0.812
+age8xmonth +climate      C=0.02  f1=0.8186 auc=0.8228 comb=0.8203 sm=0.8190 pos=0.737
+age8xmonth +climate      C=0.03  f1=0.8201 auc=0.8237 comb=0.8215 sm=0.8194 pos=0.721
+
+(93s)
+TOP 10:
+      f1      auc     comb       sm      pos                   tag    C
+0.819514 0.825296 0.821827 0.821461 0.737127                  base 0.02
+0.819514 0.825296 0.821827 0.821461 0.737127          age8 x month 0.02
+0.819514 0.825296 0.821827 0.821461 0.737127      age x doy spline 0.02
+0.818203 0.825920 0.821290 0.821325 0.718373          age8 x month 0.03
+0.818203 0.825920 0.821290 0.821325 0.718373                  base 0.03
+0.818203 0.825920 0.821290 0.821325 0.718373      age x doy spline 0.03
+0.818829 0.824275 0.821007 0.820993 0.733630 age8 x month x period 0.02
+0.818266 0.824610 0.820804 0.820390 0.720598 age8 x month x period 0.03
+0.820121 0.823671 0.821541 0.819433 0.720598              +climate 0.03
+0.820121 0.823671 0.821541 0.819433 0.720598   age8xmonth +climate 0.03
+
+BASELINE for reference: cell_g C=0.02 -> f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215

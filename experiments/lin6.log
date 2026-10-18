@@ -1,0 +1,45 @@
+base                       C=0.01  f1=0.8160 auc=0.8235 comb=0.8190 sm=0.8190 min=0.8169 pos=0.809
+base                       C=0.02  f1=0.8187 auc=0.8250 comb=0.8212 sm=0.8214 min=0.8208 pos=0.735
+base                       C=0.03  f1=0.8172 auc=0.8258 comb=0.8206 sm=0.8212 min=0.8204 pos=0.718
+agegrp x year              C=0.01  f1=0.8128 auc=0.8166 comb=0.8144 sm=0.8141 min=0.8135 pos=0.698
+agegrp x year              C=0.02  f1=0.8144 auc=0.8191 comb=0.8163 sm=0.8160 min=0.8155 pos=0.687
+agegrp x year              C=0.03  f1=0.8147 auc=0.8211 comb=0.8172 sm=0.8165 min=0.8159 pos=0.685
+agegrp x year SPLINE       C=0.01  f1=0.8145 auc=0.8186 comb=0.8161 sm=0.8165 min=0.8157 pos=0.718
+agegrp x year SPLINE       C=0.02  f1=0.8156 auc=0.8215 comb=0.8180 sm=0.8178 min=0.8174 pos=0.701
+agegrp x year SPLINE       C=0.03  f1=0.8150 auc=0.8227 comb=0.8181 sm=0.8181 min=0.8172 pos=0.696
++facility size             C=0.01  f1=0.8154 auc=0.8230 comb=0.8184 sm=0.8187 min=0.8170 pos=0.806
++facility size             C=0.02  f1=0.8185 auc=0.8245 comb=0.8209 sm=0.8208 min=0.8197 pos=0.735
++facility size             C=0.03  f1=0.8171 auc=0.8253 comb=0.8204 sm=0.8209 min=0.8198 pos=0.719
+agegrp x year + fsize      C=0.01  f1=0.8127 auc=0.8162 comb=0.8141 sm=0.8140 min=0.8135 pos=0.697
+agegrp x year + fsize      C=0.02  f1=0.8133 auc=0.8187 comb=0.8155 sm=0.8152 min=0.8145 pos=0.686
+agegrp x year + fsize      C=0.03  f1=0.8142 auc=0.8206 comb=0.8167 sm=0.8159 min=0.8146 pos=0.685
+agegrp x year + age8 x yr3bin C=0.01  f1=0.8128 auc=0.8166 comb=0.8144 sm=0.8141 min=0.8135 pos=0.698
+agegrp x year + age8 x yr3bin C=0.02  f1=0.8144 auc=0.8191 comb=0.8163 sm=0.8160 min=0.8155 pos=0.687
+agegrp x year + age8 x yr3bin C=0.03  f1=0.8147 auc=0.8211 comb=0.8172 sm=0.8165 min=0.8159 pos=0.685
+age8 x yr3bin              C=0.01  f1=0.8160 auc=0.8235 comb=0.8190 sm=0.8190 min=0.8169 pos=0.809
+age8 x yr3bin              C=0.02  f1=0.8187 auc=0.8250 comb=0.8212 sm=0.8214 min=0.8208 pos=0.735
+age8 x yr3bin              C=0.03  f1=0.8172 auc=0.8258 comb=0.8206 sm=0.8212 min=0.8204 pos=0.718
+age8 x yr2bin              C=0.01  f1=0.8160 auc=0.8235 comb=0.8190 sm=0.8190 min=0.8169 pos=0.809
+age8 x yr2bin              C=0.02  f1=0.8187 auc=0.8250 comb=0.8212 sm=0.8214 min=0.8208 pos=0.735
+age8 x yr2bin              C=0.03  f1=0.8172 auc=0.8258 comb=0.8206 sm=0.8212 min=0.8204 pos=0.718
+agegrp x year, k_year=8    C=0.01  f1=0.8136 auc=0.8169 comb=0.8149 sm=0.8145 min=0.8138 pos=0.696
+agegrp x year, k_year=8    C=0.02  f1=0.8147 auc=0.8194 comb=0.8166 sm=0.8160 min=0.8147 pos=0.686
+agegrp x year, k_year=8    C=0.03  f1=0.8132 auc=0.8211 comb=0.8163 sm=0.8165 min=0.8156 pos=0.683
+
+(160s)
+TOP 12:
+      f1      auc     comb       sm       mn      pos            tag    C
+0.818724 0.825008 0.821238 0.821444 0.820817 0.734584           base 0.02
+0.818724 0.825008 0.821238 0.821444 0.820817 0.734584  age8 x yr3bin 0.02
+0.818724 0.825008 0.821238 0.821444 0.820817 0.734584  age8 x yr2bin 0.02
+0.817189 0.825838 0.820649 0.821221 0.820413 0.717737  age8 x yr3bin 0.03
+0.817189 0.825838 0.820649 0.821221 0.820413 0.717737  age8 x yr2bin 0.03
+0.817189 0.825838 0.820649 0.821221 0.820413 0.717737           base 0.03
+0.817084 0.825264 0.820356 0.820935 0.819823 0.718690 +facility size 0.03
+0.818536 0.824487 0.820917 0.820827 0.819660 0.734901 +facility size 0.02
+0.816024 0.823533 0.819028 0.818996 0.816879 0.809282           base 0.01
+0.816024 0.823533 0.819028 0.818996 0.816879 0.809282  age8 x yr3bin 0.01
+0.816024 0.823533 0.819028 0.818996 0.816879 0.809282  age8 x yr2bin 0.01
+0.815364 0.822989 0.818414 0.818684 0.817022 0.805785 +facility size 0.01
+
+PREVIOUS BEST (singleA C=0.02): f1=0.8187 auc=0.8250 comb=0.8212 seedmean=0.8214

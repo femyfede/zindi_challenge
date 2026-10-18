@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\FEDE\OneDrive\Desktop\ZINDI\run_v2.py", line 70, in <module>
+    X, num, cat = build(tr, use)
+                  ~~~~~^^^^^^^^^
+  File "C:\Users\FEDE\OneDrive\Desktop\ZINDI\features2.py", line 79, in build
+    return d[num + cat], num, cat
+           ~^^^^^^^^^^^
+  File "C:\Users\FEDE\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py", line 4384, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\FEDE\AppData\Roaming\Python\Python314\site-packages\pandas\core\indexes\base.py", line 6302, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\FEDE\AppData\Roaming\Python\Python314\site-packages\pandas\core\indexes\base.py", line 6355, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['cell_age_period'] not in index"

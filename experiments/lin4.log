@@ -1,0 +1,84 @@
+base                         C=0.02  f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+base                         C=0.03  f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+base                         C=0.05  f1=0.8158 auc=0.8248 comb=0.8194 sm=0.8195 pos=0.712
+cell_g=1                     C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+cell_g=1                     C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+cell_g=1                     C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+cell_pg=1                    C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+cell_pg=1                    C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+cell_pg=1                    C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+cell_pz=1                    C=0.02  f1=0.8204 auc=0.8233 comb=0.8216 sm=0.8203 pos=0.743
+cell_pz=1                    C=0.03  f1=0.8177 auc=0.8235 comb=0.8200 sm=0.8195 pos=0.723
+cell_pz=1                    C=0.05  f1=0.8126 auc=0.8238 comb=0.8171 sm=0.8176 pos=0.711
+ywin=3                       C=0.02  f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+ywin=3                       C=0.03  f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+ywin=3                       C=0.05  f1=0.8158 auc=0.8248 comb=0.8194 sm=0.8195 pos=0.712
+ywin=3,cell_g=1              C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+ywin=3,cell_g=1              C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+ywin=3,cell_g=1              C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+ywin=3,cell_pg=1             C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+ywin=3,cell_pg=1             C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+ywin=3,cell_pg=1             C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+ywin=3,cell_pz=1             C=0.02  f1=0.8204 auc=0.8233 comb=0.8216 sm=0.8203 pos=0.743
+ywin=3,cell_pz=1             C=0.03  f1=0.8177 auc=0.8235 comb=0.8200 sm=0.8195 pos=0.723
+ywin=3,cell_pz=1             C=0.05  f1=0.8126 auc=0.8238 comb=0.8171 sm=0.8176 pos=0.711
+ywin=4                       C=0.02  f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+ywin=4                       C=0.03  f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+ywin=4                       C=0.05  f1=0.8158 auc=0.8248 comb=0.8194 sm=0.8195 pos=0.712
+ywin=4,cell_g=1              C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+ywin=4,cell_g=1              C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+ywin=4,cell_g=1              C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+ywin=4,cell_pg=1             C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+ywin=4,cell_pg=1             C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+ywin=4,cell_pg=1             C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+ywin=4,cell_pz=1             C=0.02  f1=0.8204 auc=0.8233 comb=0.8216 sm=0.8203 pos=0.743
+ywin=4,cell_pz=1             C=0.03  f1=0.8177 auc=0.8235 comb=0.8200 sm=0.8195 pos=0.723
+ywin=4,cell_pz=1             C=0.05  f1=0.8126 auc=0.8238 comb=0.8171 sm=0.8176 pos=0.711
+ywin=5                       C=0.02  f1=0.8188 auc=0.8235 comb=0.8207 sm=0.8201 pos=0.748
+ywin=5                       C=0.03  f1=0.8196 auc=0.8241 comb=0.8214 sm=0.8206 pos=0.731
+ywin=5                       C=0.05  f1=0.8158 auc=0.8248 comb=0.8194 sm=0.8195 pos=0.712
+ywin=5,cell_g=1              C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+ywin=5,cell_g=1              C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+ywin=5,cell_g=1              C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+ywin=5,cell_pg=1             C=0.02  f1=0.8195 auc=0.8253 comb=0.8218 sm=0.8215 pos=0.737
+ywin=5,cell_pg=1             C=0.03  f1=0.8182 auc=0.8259 comb=0.8213 sm=0.8213 pos=0.718
+ywin=5,cell_pg=1             C=0.05  f1=0.8161 auc=0.8267 comb=0.8203 sm=0.8206 pos=0.708
+ywin=5,cell_pz=1             C=0.02  f1=0.8204 auc=0.8233 comb=0.8216 sm=0.8203 pos=0.743
+ywin=5,cell_pz=1             C=0.03  f1=0.8177 auc=0.8235 comb=0.8200 sm=0.8195 pos=0.723
+ywin=5,cell_pz=1             C=0.05  f1=0.8126 auc=0.8238 comb=0.8171 sm=0.8176 pos=0.711
+
+(252s)
+TOP 15:
+      f1      auc     comb       sm      pos    C  ywin              tag  cell_g  cell_pg  cell_pz
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     0         cell_g=1     1.0      NaN      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     0        cell_pg=1     NaN      1.0      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     3  ywin=3,cell_g=1     1.0      NaN      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     5 ywin=5,cell_pg=1     NaN      1.0      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     5  ywin=5,cell_g=1     1.0      NaN      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     4 ywin=4,cell_pg=1     NaN      1.0      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     4  ywin=4,cell_g=1     1.0      NaN      NaN
+0.819514 0.825296 0.821827 0.821461 0.737127 0.02     3 ywin=3,cell_pg=1     NaN      1.0      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     3  ywin=3,cell_g=1     1.0      NaN      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     4 ywin=4,cell_pg=1     NaN      1.0      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     4  ywin=4,cell_g=1     1.0      NaN      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     0         cell_g=1     1.0      NaN      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     0        cell_pg=1     NaN      1.0      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     3 ywin=3,cell_pg=1     NaN      1.0      NaN
+0.818203 0.825920 0.821290 0.821325 0.718373 0.03     5  ywin=5,cell_g=1     1.0      NaN      NaN
+
+=== PROBABILITY-AVERAGED ENSEMBLES (top configs, uniform) ===
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_pg=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_pg=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | ywin=3,cell_g=1@0.03]
+  sm=0.8217 comb=0.8215 f1=0.8189 auc=0.8254 pos=0.733  [ywin=3,cell_g=1@0.02 | ywin=3,cell_pg=1@0.02 | ywin=4,cell_g=1@0.02 | ywin=5,cell_g=1@0.02 | ywin=5,cell_pg=1@0.02 | cell_pg=1@0.03]

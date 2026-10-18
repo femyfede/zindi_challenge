@@ -1,0 +1,59 @@
+base                                       C=0.01  f1=0.8157 auc=0.8218 comb=0.8181 (seedmean 0.8179) pos=0.818
+cell_g                                     C=0.01  f1=0.8160 auc=0.8242 comb=0.8193 (seedmean 0.8187) pos=0.794
+cell_z                                     C=0.01  f1=0.8140 auc=0.8218 comb=0.8171 (seedmean 0.8166) pos=0.798
+cell_g,cell_z                              C=0.01  f1=0.8156 auc=0.8235 comb=0.8188 (seedmean 0.8186) pos=0.772
+FAIL cell_season 0.01 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+age_season                                 C=0.01  f1=0.8157 auc=0.8218 comb=0.8181 (seedmean 0.8179) pos=0.818
+FAIL cell_g,cell_z,cell_season 0.01 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+cell_g,cell_z|clim                         C=0.01  f1=0.8131 auc=0.8206 comb=0.8161 (seedmean 0.8162) pos=0.781
+base                                       C=0.02  f1=0.8164 auc=0.8229 comb=0.8190 (seedmean 0.8187) pos=0.749
+cell_g                                     C=0.02  f1=0.8166 auc=0.8255 comb=0.8202 (seedmean 0.8195) pos=0.726
+cell_z                                     C=0.02  f1=0.8164 auc=0.8227 comb=0.8189 (seedmean 0.8192) pos=0.736
+cell_g,cell_z                              C=0.02  f1=0.8150 auc=0.8251 comb=0.8191 (seedmean 0.8188) pos=0.719
+FAIL cell_season 0.02 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+age_season                                 C=0.02  f1=0.8164 auc=0.8229 comb=0.8190 (seedmean 0.8187) pos=0.749
+FAIL cell_g,cell_z,cell_season 0.02 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+cell_g,cell_z|clim                         C=0.02  f1=0.8162 auc=0.8228 comb=0.8188 (seedmean 0.8181) pos=0.724
+base                                       C=0.03  f1=0.8185 auc=0.8236 comb=0.8206 (seedmean 0.8195) pos=0.728
+cell_g                                     C=0.03  f1=0.8160 auc=0.8261 comb=0.8201 (seedmean 0.8196) pos=0.709
+cell_z                                     C=0.03  f1=0.8157 auc=0.8232 comb=0.8187 (seedmean 0.8189) pos=0.722
+cell_g,cell_z                              C=0.03  f1=0.8158 auc=0.8259 comb=0.8198 (seedmean 0.8192) pos=0.706
+FAIL cell_season 0.03 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+age_season                                 C=0.03  f1=0.8185 auc=0.8236 comb=0.8206 (seedmean 0.8195) pos=0.728
+FAIL cell_g,cell_z,cell_season 0.03 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+cell_g,cell_z|clim                         C=0.03  f1=0.8165 auc=0.8236 comb=0.8193 (seedmean 0.8185) pos=0.709
+base                                       C=0.05  f1=0.8158 auc=0.8244 comb=0.8192 (seedmean 0.8194) pos=0.712
+cell_g                                     C=0.05  f1=0.8154 auc=0.8269 comb=0.8200 (seedmean 0.8192) pos=0.699
+cell_z                                     C=0.05  f1=0.8145 auc=0.8238 comb=0.8182 (seedmean 0.8178) pos=0.710
+cell_g,cell_z                              C=0.05  f1=0.8145 auc=0.8263 comb=0.8193 (seedmean 0.8192) pos=0.696
+FAIL cell_season 0.05 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+age_season                                 C=0.05  f1=0.8158 auc=0.8244 comb=0.8192 (seedmean 0.8194) pos=0.712
+FAIL cell_g,cell_z,cell_season 0.05 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+cell_g,cell_z|clim                         C=0.05  f1=0.8164 auc=0.8240 comb=0.8195 (seedmean 0.8179) pos=0.696
+base                                       C=0.1   f1=0.8143 auc=0.8247 comb=0.8185 (seedmean 0.8179) pos=0.703
+cell_g                                     C=0.1   f1=0.8162 auc=0.8271 comb=0.8205 (seedmean 0.8199) pos=0.693
+cell_z                                     C=0.1   f1=0.8123 auc=0.8240 comb=0.8170 (seedmean 0.8167) pos=0.704
+cell_g,cell_z                              C=0.1   f1=0.8166 auc=0.8264 comb=0.8205 (seedmean 0.8194) pos=0.696
+FAIL cell_season 0.1 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+age_season                                 C=0.1   f1=0.8143 auc=0.8247 comb=0.8185 (seedmean 0.8179) pos=0.703
+FAIL cell_g,cell_z,cell_season 0.1 ValueError("Some column names are not columns of the dataframe: {'cell_season'}")
+cell_g,cell_z|clim                         C=0.1   f1=0.8154 auc=0.8240 comb=0.8189 (seedmean 0.8173) pos=0.691
+
+(117s)
+TOP 15:
+      f1      auc     comb  comb_seedmean  comb_seedmin      pos  k_age  k_post_age  k_year  k_doy    C                tag  has_clim  cell_g  cell_z  age_season
+0.818538 0.823596 0.820561       0.819536      0.819421 0.727908     10          10       6      6 0.03               base     False     NaN     NaN         NaN
+0.818538 0.823596 0.820561       0.819536      0.819421 0.727908     10          10       6      6 0.03         age_season     False     NaN     NaN         1.0
+0.816182 0.827094 0.820547       0.819862      0.819619 0.692943     10          10       6      6 0.10             cell_g     False     1.0     NaN         NaN
+0.816616 0.826389 0.820525       0.819387      0.818442 0.696122     10          10       6      6 0.10      cell_g,cell_z     False     1.0     1.0         NaN
+0.816628 0.825542 0.820194       0.819540      0.819092 0.725683     10          10       6      6 0.02             cell_g     False     1.0     NaN         NaN
+0.815993 0.826147 0.820054       0.819581      0.819466 0.708837     10          10       6      6 0.03             cell_g     False     1.0     NaN         NaN
+0.815356 0.826906 0.819976       0.819227      0.818807 0.698983     10          10       6      6 0.05             cell_g     False     1.0     NaN         NaN
+0.815839 0.825854 0.819845       0.819227      0.818824 0.705976     10          10       6      6 0.03      cell_g,cell_z     False     1.0     1.0         NaN
+0.816423 0.824046 0.819472       0.817875      0.815576 0.696440     10          10       6      6 0.05 cell_g,cell_z|clim      True     1.0     1.0         NaN
+0.816460 0.823605 0.819318       0.818535      0.817499 0.708837     10          10       6      6 0.03 cell_g,cell_z|clim      True     1.0     1.0         NaN
+0.816021 0.824151 0.819273       0.818749      0.817930 0.793706     10          10       6      6 0.01             cell_g     False     1.0     NaN         NaN
+0.814535 0.826336 0.819255       0.819215      0.818548 0.696440     10          10       6      6 0.05      cell_g,cell_z     False     1.0     1.0         NaN
+0.815765 0.824432 0.819232       0.819350      0.818823 0.712333     10          10       6      6 0.05         age_season     False     NaN     NaN         1.0
+0.815765 0.824432 0.819232       0.819350      0.818823 0.712333     10          10       6      6 0.05               base     False     NaN     NaN         NaN
+0.815038 0.825125 0.819073       0.818773      0.818263 0.719008     10          10       6      6 0.02      cell_g,cell_z     False     1.0     1.0         NaN
